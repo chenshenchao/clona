@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\clona.cpp" />
+    <ClCompile Include="source\device\keyboard.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="source\device\logger.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="source\device\ticker.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="source\script\interpreter.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="source\device\organizer.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="source\script\lexicon.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\clona.h" />
+    <ClInclude Include="source\device\keyboard.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="source\device\logger.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="source\device\mouse.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="source\device\ticker.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\interpreter.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\syntax.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\lexicon.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="source\content\role.h">
+      <Filter>content</Filter>
+    </ClInclude>
+    <ClInclude Include="source\quantity.h" />
+    <ClInclude Include="source\device\organizer.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\archetype.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\runtime.h">
+      <Filter>script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="device">
+      <UniqueIdentifier>{f437891e-327b-4405-9a8d-8fb8fc0e0514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{273a3b87-776d-4de6-a759-58a8e7d52cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content">
+      <UniqueIdentifier>{6c0e0b3b-8ad4-43a8-87ad-ba2f774b8b9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
