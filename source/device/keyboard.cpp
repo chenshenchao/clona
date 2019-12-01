@@ -1,4 +1,4 @@
-﻿#include "keyboard.h"
+#include "keyboard.h"
 
 /**
  * 键盘更新状态

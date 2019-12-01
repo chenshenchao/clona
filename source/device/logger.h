@@ -1,4 +1,4 @@
-﻿#ifndef CLONA_DEVICE_LOGGER_H
+#ifndef CLONA_DEVICE_LOGGER_H
 #define CLONA_DEVICE_LOGGER_H
 
 #include <SDL.h>

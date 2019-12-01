@@ -1,4 +1,4 @@
-﻿#ifndef CLONA_DEVICE_KEYBOARD_H
+#ifndef CLONA_DEVICE_KEYBOARD_H
 #define CLONA_DEVICE_KEYBOARD_H
 
 #include <SDL.h>

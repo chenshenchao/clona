@@ -47,7 +47,6 @@
     <ClInclude Include="source\content\role.h">
       <Filter>content</Filter>
     </ClInclude>
-    <ClInclude Include="source\quantity.h" />
     <ClInclude Include="source\device\organizer.h">
       <Filter>device</Filter>
     </ClInclude>
@@ -55,6 +54,24 @@
       <Filter>script</Filter>
     </ClInclude>
     <ClInclude Include="source\script\runtime.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\sprite.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\scene.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\quantity.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\axis.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\entity.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="source\script\bytecode.h">
       <Filter>script</Filter>
     </ClInclude>
   </ItemGroup>
@@ -67,6 +84,9 @@
     </Filter>
     <Filter Include="content">
       <UniqueIdentifier>{6c0e0b3b-8ad4-43a8-87ad-ba2f774b8b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{42a42ecd-82ae-4b9a-beb7-bd1292e521f4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

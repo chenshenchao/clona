@@ -1,4 +1,4 @@
-﻿#include <cctype>
+#include <cctype>
 #include "lexicon.h"
 
 /**
@@ -25,5 +25,5 @@ clona::lexeme clona::lexer::extract(std::istream& stream, clona::scope& scope) {
 	else if (std::isalpha(character)) {
 
 	}
-	return lexeme();
+	throw lex_exception();
 }

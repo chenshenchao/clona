@@ -1,4 +1,4 @@
-﻿#ifndef CLONA_SCRIPT_LEXICON_H
+#ifndef CLONA_SCRIPT_LEXICON_H
 #define CLONA_SCRIPT_LEXICON_H
 
 #include <istream>
@@ -17,8 +17,6 @@ namespace clona {
 			literal_false, // 字面量 false
 			literal_string,// 字符串字面量
 			literal_number,// 数字字面量
-			literal_list, // 数组字面量
-			literal_dictionary, // 字典字面量
 			keyword_if, // if 关键字
 			keyword_else, // else 关键字
 			keyword_while, // while 关键字
@@ -34,13 +32,14 @@ namespace clona {
 			close_bracket,// 右中括号
 			open_parenthesis,// 左括号
 			close_parenthesis,// 右括号
-		} token;
+		} token; // 词素标识
 
 		union {
 			int integer;
 			double number;
 			char* text;
-		} value;
+		} value; // 词素值
+
 
 	};
 

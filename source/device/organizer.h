@@ -1,4 +1,4 @@
-﻿#ifndef CLONA_DEVICE_ORGANIZER_H
+#ifndef CLONA_DEVICE_ORGANIZER_H
 #define CLONA_DEVICE_ORGANIZER_H
 
 #include <map>

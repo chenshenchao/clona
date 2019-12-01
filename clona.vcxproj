@@ -168,10 +168,15 @@
     <ClInclude Include="source\device\mouse.h" />
     <ClInclude Include="source\device\organizer.h" />
     <ClInclude Include="source\device\ticker.h" />
-    <ClInclude Include="source\quantity.h" />
+    <ClInclude Include="source\engine\axis.h" />
+    <ClInclude Include="source\engine\quantity.h" />
+    <ClInclude Include="source\engine\scene.h" />
+    <ClInclude Include="source\engine\sprite.h" />
     <ClInclude Include="source\script\archetype.h" />
+    <ClInclude Include="source\script\entity.h" />
     <ClInclude Include="source\script\interpreter.h" />
     <ClInclude Include="source\script\lexicon.h" />
+    <ClInclude Include="source\script\bytecode.h" />
     <ClInclude Include="source\script\runtime.h" />
     <ClInclude Include="source\script\syntax.h" />
   </ItemGroup>

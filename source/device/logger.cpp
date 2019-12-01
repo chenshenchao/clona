@@ -1,4 +1,4 @@
-﻿#include <ctime>
+#include <ctime>
 #include <chrono>
 #include <sstream>
 #include <fstream>

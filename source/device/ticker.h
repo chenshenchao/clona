@@ -1,9 +1,13 @@
-#ifndef CLONA_DEVICE_TICKER_H
+﻿#ifndef CLONA_DEVICE_TICKER_H
 #define CLONA_DEVICE_TICKER_H
 
 #include <Windows.h>
 
 namespace clona {
+	/**
+	 * 核心类
+	 * 
+	 */
 	class ticker final {
 		bool able;
 		float delta;
