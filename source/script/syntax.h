@@ -5,7 +5,7 @@
 
 namespace clona {
 	/**
-	 * Óï·¨·ÖÎöÆ÷
+	 * è¯­æ³•åˆ†æå™¨
 	 * 
 	 */
 	class parser final {

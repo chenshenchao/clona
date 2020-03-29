@@ -2,13 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="source\clona.cpp" />
-    <ClCompile Include="source\device\keyboard.cpp">
-      <Filter>device</Filter>
-    </ClCompile>
     <ClCompile Include="source\device\logger.cpp">
-      <Filter>device</Filter>
-    </ClCompile>
-    <ClCompile Include="source\device\ticker.cpp">
       <Filter>device</Filter>
     </ClCompile>
     <ClCompile Include="source\script\interpreter.cpp">
@@ -44,9 +38,6 @@
     <ClInclude Include="source\script\lexicon.h">
       <Filter>script</Filter>
     </ClInclude>
-    <ClInclude Include="source\content\role.h">
-      <Filter>content</Filter>
-    </ClInclude>
     <ClInclude Include="source\device\organizer.h">
       <Filter>device</Filter>
     </ClInclude>
@@ -81,9 +72,6 @@
     </Filter>
     <Filter Include="script">
       <UniqueIdentifier>{273a3b87-776d-4de6-a759-58a8e7d52cde}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="content">
-      <UniqueIdentifier>{6c0e0b3b-8ad4-43a8-87ad-ba2f774b8b9e}</UniqueIdentifier>
     </Filter>
     <Filter Include="engine">
       <UniqueIdentifier>{42a42ecd-82ae-4b9a-beb7-bd1292e521f4}</UniqueIdentifier>

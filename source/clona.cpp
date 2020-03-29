@@ -17,41 +17,46 @@ namespace {
 }
 
 /**
- * ≥Ã–Ú÷˜»Îø⁄
+ * Á®ãÂ∫è‰∏ªÂÖ•Âè£
  * 
  */
 int main(int count, char* arguments[]) {
 	using namespace clona;
 
-	if (0 != SDL_Init(SDL_INIT_FLAG)) {
-		return -1;
-	}
+	try {
+		if (0 != SDL_Init(SDL_INIT_FLAG)) {
+			return -1;
+		}
 
-	the<ticker>.attach();
-	the<logger>.attach();
-	the<organizer>.attach();
-	the<interpreter>.attach();
+		the<ticker>.attach();
+		the<logger>.attach();
+		the<organizer>.attach();
+		the<interpreter>.attach();
 
-	the<logger>.put("start game.");
+		the<logger>.put("start game.");
 
-	while (the<ticker>.is_active()) {
-		while (0 != SDL_PollEvent(&event)) {
-			if (event.type == SDL_QUIT) {
-				the<ticker>.set_active(false);
-				break;
-			}
-			if (event.type == SDL_KEYDOWN) {
-				switch (event.key.keysym.sym) {
-				case SDLK_ESCAPE:
+		while (the<ticker>.is_active()) {
+			while (0 != SDL_PollEvent(&event)) {
+				if (event.type == SDL_QUIT) {
 					the<ticker>.set_active(false);
 					break;
 				}
+				if (event.type == SDL_KEYDOWN) {
+					switch (event.key.keysym.sym) {
+					case SDLK_ESCAPE:
+						the<ticker>.set_active(false);
+						break;
+					}
+				}
+				the<mouse>.update();
+				the<keyboard>.update();
 			}
-			the<mouse>.update();
-			the<keyboard>.update();
+			the<ticker>.update();
+			the<organizer>.update();
 		}
-		the<ticker>.update();
-		the<organizer>.update();
+	}
+	catch (...) {
+		the<logger>.put("exception game.");
 	}
 	the<interpreter>.detach();
 	the<organizer>.detach();

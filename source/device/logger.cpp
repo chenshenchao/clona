@@ -7,7 +7,8 @@
 
 
 /**
- *
+ * 日志写入回调。
+ * 
  */
 void clona::logger::logging(
 	void* userdata,
@@ -32,6 +33,8 @@ void clona::logger::logging(
 }
 
 /**
+ * 启用 SDL 的日志方法。
+ * 
  */
 void clona::logger::attach()
 {
@@ -39,6 +42,8 @@ void clona::logger::attach()
 }
 
 /**
+ * 
+ * 
  */
 void clona::logger::detach()
 {

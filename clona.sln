@@ -19,6 +19,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{AE8A375F-87FF-48A3-80E0-D32CD11459B5}"
 	ProjectSection(SolutionItems) = preProject
 		asset\script\main.cue = asset\script\main.cue
+		asset\script\meta.cue = asset\script\meta.cue
+		asset\script\role.cue = asset\script\role.cue
 	EndProjectSection
 EndProject
 Global

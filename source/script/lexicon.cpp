@@ -5,7 +5,7 @@
  * 提取出词素。
  * 
  */
-clona::lexeme clona::lexer::extract(std::istream& stream, clona::scope& scope) {
+clona::lexeme clona::lexer::extract(std::istream& stream) {
 	character = stream.get();
 
 	// 跳过空白符号

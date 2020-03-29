@@ -11,8 +11,8 @@ namespace clona {
 	 * 
 	 */
 	class interpreter final {
-		std::map<std::string, void*> globals;
-		std::map<std::string, void*> functions;
+		std::map<std::string, any> globals;
+		std::map<std::string, any> functions;
 	public:
 		interpreter() : globals(), functions() {}
 		any interpret(std::istream&);

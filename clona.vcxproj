@@ -153,16 +153,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="source\clona.cpp" />
-    <ClCompile Include="source\device\keyboard.cpp" />
     <ClCompile Include="source\device\logger.cpp" />
     <ClCompile Include="source\device\organizer.cpp" />
-    <ClCompile Include="source\device\ticker.cpp" />
     <ClCompile Include="source\script\interpreter.cpp" />
     <ClCompile Include="source\script\lexicon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\clona.h" />
-    <ClInclude Include="source\content\role.h" />
     <ClInclude Include="source\device\keyboard.h" />
     <ClInclude Include="source\device\logger.h" />
     <ClInclude Include="source\device\mouse.h" />

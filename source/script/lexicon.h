@@ -56,7 +56,7 @@ namespace clona {
 		int character;
 	public:
 		lexer() :mode(normal_mode), index(0), character(' ') {}
-		lexeme extract(std::istream& stream, scope &scope);
+		lexeme extract(std::istream& stream);
 		void reset() {
 			mode = normal_mode;
 			index = 0;

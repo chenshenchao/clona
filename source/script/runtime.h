@@ -6,7 +6,7 @@
 
 namespace clona {
 	/**
-	 * ×÷ÓÃÓò
+	 * ä½œç”¨åŸŸ
 	 */
 	class scope final {
 		scope* parent;
@@ -15,7 +15,7 @@ namespace clona {
 	};
 
 	/**
-	 * ±í´ïÊ½
+	 * è¡¨è¾¾å¼
 	 * 
 	 */
 	class expression final {
@@ -28,7 +28,7 @@ namespace clona {
 	};
 
 	/**
-	 * Óï¾ä
+	 * è¯­å¥
 	 */
 	class statement final {
 		enum {
