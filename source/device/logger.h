@@ -1,5 +1,4 @@
-#ifndef CLONA_DEVICE_LOGGER_H
-#define CLONA_DEVICE_LOGGER_H
+﻿#pragma once
 
 #include <SDL.h>
 
@@ -25,5 +24,3 @@ namespace clona {
 		}
 	};
 }
-
-#endif

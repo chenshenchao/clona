@@ -1,4 +1,4 @@
-#include <SDL.h>
+﻿#include <SDL.h>
 #include "clona.h"
 #include "device/keyboard.h"
 #include "device/logger.h"
@@ -24,18 +24,19 @@ int main(int count, char* arguments[]) {
 	using namespace clona;
 
 	try {
+		// 初始化
 		if (0 != SDL_Init(SDL_INIT_FLAG)) {
 			return -1;
 		}
-
 		the<ticker>.attach();
 		the<logger>.attach();
 		the<organizer>.attach();
 		the<interpreter>.attach();
 
+		// 主循环
 		the<logger>.put("start game.");
-
 		while (the<ticker>.is_active()) {
+			// 用户输入等事件处理
 			while (0 != SDL_PollEvent(&event)) {
 				if (event.type == SDL_QUIT) {
 					the<ticker>.set_active(false);
@@ -48,9 +49,12 @@ int main(int count, char* arguments[]) {
 						break;
 					}
 				}
+				// 更新状态
 				the<mouse>.update();
 				the<keyboard>.update();
 			}
+
+			// 游戏运行
 			the<ticker>.update();
 			the<organizer>.update();
 		}
@@ -58,6 +62,8 @@ int main(int count, char* arguments[]) {
 	catch (...) {
 		the<logger>.put("exception game.");
 	}
+
+	// 回收
 	the<interpreter>.detach();
 	the<organizer>.detach();
 	the<logger>.detach();

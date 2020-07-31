@@ -65,6 +65,9 @@
     <ClInclude Include="source\script\bytecode.h">
       <Filter>script</Filter>
     </ClInclude>
+    <ClInclude Include="source\engine\actor.h">
+      <Filter>engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="device">

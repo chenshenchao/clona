@@ -1,5 +1,4 @@
-#ifndef CLONA_SCRIPT_LEXICON_H
-#define CLONA_SCRIPT_LEXICON_H
+﻿#pragma once
 
 #include <istream>
 #include <string>
@@ -66,5 +65,3 @@ namespace clona {
 
 	};
 }
-
-#endif

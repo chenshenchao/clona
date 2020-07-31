@@ -1,5 +1,4 @@
-#ifndef CLONA_ENGINE_AXIS_H
-#define CLONA_ENGINE_AXIS_H
+﻿#pragma once
 
 #include "sprite.h"
 
@@ -13,5 +12,3 @@ namespace clona {
 		}
 	};
 }
-
-#endif

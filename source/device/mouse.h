@@ -1,5 +1,4 @@
-#ifndef CLONA_DEVICE_MOUSE_H
-#define CLONA_DEVICE_MOUSE_H
+ï»¿#pragma once
 
 #include <SDL.h>
 
@@ -7,7 +6,7 @@
 
 namespace clona {
 	/**
-	 * Êó±êÀà
+	 * é¼ æ ‡ç±»
 	 * 
 	 */
 	class mouse {
@@ -19,7 +18,7 @@ namespace clona {
 		const int& y;
 
 		/**
-		 * ³õÊ¼»¯¡£
+		 * åˆå§‹åŒ–ã€‚
 		 * 
 		 */
 		mouse() :mx(0), my(0), now(0), old(0), x(mx), y(my) {}
@@ -28,7 +27,7 @@ namespace clona {
 		mouse& operator=(const mouse&&) = delete;
 
 		/**
-		 * °´Å¥ÊÇ·ñ±»°´ÏÂ¡£
+		 * æŒ‰é’®æ˜¯å¦è¢«æŒ‰ä¸‹ã€‚
 		 * 
 		 */
 		bool is_down(int button) const {
@@ -36,7 +35,7 @@ namespace clona {
 		}
 
 		/**
-		 * °´Å¥ÊÇ·ñÊÍ·Å¡£
+		 * æŒ‰é’®æ˜¯å¦é‡Šæ”¾ã€‚
 		 *
 		 */
 		bool is_up(int button) const {
@@ -44,7 +43,7 @@ namespace clona {
 		}
 
 		/**
-		 * °´Å¥ÊÇ·ñ±»°´ÏÂ£¬½»ÌæË²¼äÓĞĞ§¡£
+		 * æŒ‰é’®æ˜¯å¦è¢«æŒ‰ä¸‹ï¼Œäº¤æ›¿ç¬é—´æœ‰æ•ˆã€‚
 		 *
 		 */
 		bool is_press(int button) const {
@@ -53,7 +52,7 @@ namespace clona {
 		}
 
 		/**
-		 * °´Å¥ÊÇ·ñ±»ÊÍ·Å£¬½»ÌæË²¼äÓĞĞ§¡£
+		 * æŒ‰é’®æ˜¯å¦è¢«é‡Šæ”¾ï¼Œäº¤æ›¿ç¬é—´æœ‰æ•ˆã€‚
 		 *
 		 */
 		bool is_loose(int button) const {
@@ -62,7 +61,7 @@ namespace clona {
 		}
 
 		/**
-		 * ¸üĞÂ×´Ì¬µÄ½»ÌæË²¼ä¡£
+		 * æ›´æ–°çŠ¶æ€çš„äº¤æ›¿ç¬é—´ã€‚
 		 */
 		void update() {
 			old = now;
@@ -70,6 +69,3 @@ namespace clona {
 		}
 	};
 }
-
-#endif
-

@@ -1,5 +1,4 @@
-#ifndef CLONA_SCRIPT_ARCHETYPE_H
-#define CLOAN_SCRIPT_ARCHETYPE_H
+﻿#pragma once
 
 #include <string>
 #include <exception>
@@ -73,5 +72,3 @@ namespace clona {
 		}
 	};
 }
-
-#endif

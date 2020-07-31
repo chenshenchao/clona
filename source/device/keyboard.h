@@ -1,5 +1,4 @@
-#ifndef CLONA_DEVICE_KEYBOARD_H
-#define CLONA_DEVICE_KEYBOARD_H
+﻿#pragma once
 
 #include <SDL.h>
 
@@ -79,5 +78,3 @@ namespace clona {
 		}
 	};
 }
-
-#endif

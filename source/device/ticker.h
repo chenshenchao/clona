@@ -1,5 +1,4 @@
-﻿#ifndef CLONA_DEVICE_TICKER_H
-#define CLONA_DEVICE_TICKER_H
+﻿#pragma once
 
 #include <Windows.h>
 
@@ -39,5 +38,3 @@ namespace clona {
 		float get_delta() { return delta; }
 	};
 }
-
-#endif

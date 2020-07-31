@@ -1,5 +1,4 @@
-#ifndef CLONA_DEVICE_ORGANIZER_H
-#define CLONA_DEVICE_ORGANIZER_H
+﻿#pragma once
 
 #include <map>
 #include <string>
@@ -30,5 +29,3 @@ namespace clona {
 		SDL_Texture* get_texture(const std::string& name);
 	};
 }
-
-#endif

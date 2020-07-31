@@ -1,7 +1,4 @@
-#ifndef CLONA_SCRIPT_SYNTAX_H
-#define CLONA_SCRIPT_SYNTAX_H
-
-
+﻿#pragma once
 
 namespace clona {
 	/**
@@ -14,5 +11,3 @@ namespace clona {
 		
 	};
 }
-
-#endif

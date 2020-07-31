@@ -1,5 +1,4 @@
-#ifndef CLONA_H
-#define CLONA_H
+﻿#pragma once
 
 namespace clona {
 	/**
@@ -8,5 +7,3 @@ namespace clona {
 	 */
 	template<typename T> T the;
 }
-
-#endif

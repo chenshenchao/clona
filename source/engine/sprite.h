@@ -1,5 +1,4 @@
-#ifndef CLONA_ENGINE_SPRITE_H
-#define CLONA_ENGINE_SPRITE_H
+﻿#pragma once
 
 #include "quantity.h"
 
@@ -15,5 +14,3 @@ namespace clona {
 
 	};
 }
-
-#endif

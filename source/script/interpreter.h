@@ -1,5 +1,4 @@
-#ifndef CLONA_SCRIPT_INTERPRETER_H
-#define CLONA_SCRIPT_INTERPRETER_H
+﻿#pragma once
 
 #include <map>
 #include <string>
@@ -20,5 +19,3 @@ namespace clona {
 		void detach();
 	};
 }
-
-#endif

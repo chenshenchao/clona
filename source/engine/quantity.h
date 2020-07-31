@@ -1,5 +1,4 @@
-#ifndef CLONA_QUANTITY_H
-#define CLONA_QUANTITY_H
+﻿#pragma once
 
 namespace clona {
 	/**
@@ -31,5 +30,3 @@ namespace clona {
 		return length * origin;
 	}
 }
-
-#endif

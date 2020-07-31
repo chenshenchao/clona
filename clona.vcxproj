@@ -165,6 +165,7 @@
     <ClInclude Include="source\device\mouse.h" />
     <ClInclude Include="source\device\organizer.h" />
     <ClInclude Include="source\device\ticker.h" />
+    <ClInclude Include="source\engine\actor.h" />
     <ClInclude Include="source\engine\axis.h" />
     <ClInclude Include="source\engine\quantity.h" />
     <ClInclude Include="source\engine\scene.h" />

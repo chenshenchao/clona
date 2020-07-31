@@ -1,5 +1,4 @@
-#ifndef CLONA_SCRIPT_RUNTIME_H
-#define CLONA_SCRIPT_RUNTIME_H
+﻿#pragma once
 
 #include <map>
 #include "archetype.h"
@@ -39,5 +38,3 @@ namespace clona {
 		} kind;
 	};
 }
-
-#endif

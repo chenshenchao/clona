@@ -1,5 +1,4 @@
-#ifndef CLONA_SCRIPT_ENTITY_H
-#define CLONA_SCRIPT_ENTITY_H
+﻿#pragma once
 
 #include <vector>
 
@@ -20,5 +19,3 @@ namespace clona {
 		}
 	};
 }
-
-#endif

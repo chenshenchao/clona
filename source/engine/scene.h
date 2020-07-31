@@ -1,5 +1,4 @@
-#ifndef CLONA_ENGINE_SCENE_H
-#define CLONA_ENGINE_SCENE_H
+﻿#pragma once
 
 #include <set>
 #include "axis.h"
@@ -15,5 +14,3 @@ namespace clona {
 	public:
 	};
 }
-
-#endif
