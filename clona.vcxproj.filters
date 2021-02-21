@@ -14,6 +14,9 @@
     <ClCompile Include="source\script\lexicon.cpp">
       <Filter>script</Filter>
     </ClCompile>
+    <ClCompile Include="source\engine\director.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\clona.h" />
@@ -66,6 +69,9 @@
       <Filter>script</Filter>
     </ClInclude>
     <ClInclude Include="source\engine\actor.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\director.h">
       <Filter>engine</Filter>
     </ClInclude>
   </ItemGroup>

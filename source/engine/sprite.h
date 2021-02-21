@@ -1,5 +1,6 @@
 ﻿#pragma once
 
+#include <set>
 #include "quantity.h"
 
 namespace clona {
@@ -8,6 +9,7 @@ namespace clona {
 	 */
 	class sprite {
 		friend class z_axis;
+		std::multiset<sprite, z_axis> table;
 
 		f3 position;
 	public:

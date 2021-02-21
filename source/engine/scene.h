@@ -1,7 +1,9 @@
 ﻿#pragma once
 
 #include <set>
+#include <memory>
 #include "axis.h"
+#include "actor.h"
 #include "sprite.h"
 
 namespace clona {
@@ -10,7 +12,7 @@ namespace clona {
 	 * 
 	 */
 	class scene {
-		std::multiset<sprite, z_axis> sprites;
+		std::multiset<std::weak_ptr<sprite>, z_axis> sprites;
 	public:
 	};
 }

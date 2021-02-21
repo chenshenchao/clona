@@ -1,5 +1,6 @@
 ﻿#pragma once
 
+#include "actor.h"
 #include "sprite.h"
 
 namespace clona {

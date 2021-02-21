@@ -6,6 +6,7 @@
 #include "device/organizer.h"
 #include "device/ticker.h"
 #include "script/interpreter.h"
+#include "engine/director.h"
 
 namespace {
 	const Uint32 SDL_INIT_FLAG =
@@ -32,6 +33,7 @@ int main(int count, char* arguments[]) {
 		the<logger>.attach();
 		the<organizer>.attach();
 		the<interpreter>.attach();
+		the<director>.attach();
 
 		// 主循环
 		the<logger>.put("start game.");
@@ -64,6 +66,7 @@ int main(int count, char* arguments[]) {
 	}
 
 	// 回收
+	the<director>.detach();
 	the<interpreter>.detach();
 	the<organizer>.detach();
 	the<logger>.detach();
